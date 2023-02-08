@@ -25,5 +25,5 @@ fi
 
 echo "Docker API setup."
 echo
-echo "Check service status with: sudo ${status_cmd}"
+echo "Check service status with: sudo service docker status"
 echo "Test with: curl http://localhost:2375/images/json"
